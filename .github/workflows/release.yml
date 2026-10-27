@@ -56,7 +56,7 @@ jobs:
         merge-multiple: true
         path: dist
 
-    - uses: astral-sh/setup-uv@v10.3.0
+    - uses: astral-sh/setup-uv@v10.3.2
 
     - name: Publish
       run: uv publish dist/*.whl
